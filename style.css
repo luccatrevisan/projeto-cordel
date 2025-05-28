@@ -64,11 +64,11 @@ section > p{
     color: white;
     background-color: (51, 51, 51);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
-    background-size: scroll;
+    background-size: cover;
     /* cobre 100% da vh */
     background-attachment: fixed;
     /*
-    a imagem fica imóvel conforme o conteúdo vai rolando
+    fixed = a imagem fica imóvel conforme o conteúdo vai rolando
         pra mexer de acordo com o conteúdo usa scroll
     */
 }
