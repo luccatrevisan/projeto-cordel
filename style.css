@@ -52,7 +52,7 @@ section{
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh; /* usar vh é mais interessante porque fica um espaço variado de acordo com o tamanho da viewport */
-    font-size: 1.5em;
+    font-size: 3.5vw;
 }
 
 section > p{
@@ -77,7 +77,7 @@ section > p{
 }
 
 section.diferente > p{
-    display: inline-block;
+    display: inline-block; /* a caixa se adapta ao conteúdo */
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
