@@ -48,10 +48,10 @@ main{
 }
 
 section{
-    line-height: 2em;
+    line-height: 2em; /* espaçamento entre os versos */
     padding-left: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh; /* usar vh é mais interessante porque fica um espaço variado de acordo com o tamanho da viewport */
     font-size: 1.5em;
 }
 
