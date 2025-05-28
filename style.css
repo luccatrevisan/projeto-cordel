@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-weight: bolder;
+    font-family: 'Passion One';
+    font-variant: small-caps; /* transforma as letras minúsculas em letras maiusculas menores */
+    font-size: 10vw; /* viewport width */
+    padding-top: 10px;
+}
+
+header > p > a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    font-family: 'Sriracha';
+}
+
+section{
+    line-height: 2em;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.diferente{
+    color: white;
+    background-color: (51, 51, 51);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: scroll;
+    /* cobre 100% da vh */
+    background-attachment: fixed;
+    /*
+    a imagem fica imóvel conforme o conteúdo vai rolando
+        pra mexer de acordo com o conteúdo usa scroll
+    */
+}
+
+section.diferente > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > p > a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+}
