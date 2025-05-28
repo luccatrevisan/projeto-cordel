@@ -5,14 +5,14 @@
 
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px; /* pra tirar aqueles espaços vazios entre as caixas */
     font-size: 1em;
 }
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: darkgray;
-    min-height: 100vh;
+    min-height: 100vh; /* o body sempre vai cobrir o viewport todo */
 }
 
 header{
